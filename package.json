@@ -12,9 +12,7 @@
     "url": "http://just-trying-to-satisfy-npms-warnings.html"
   },
   "scripts": {
-    "010": "babel-node 010-basic-try-catch.js",
-    "020": "babel-node 020-promise.js",
-    "030": "babel-node 030-async.js"
+    "go": "CORK=t babel-node "
   },
   "dependencies": {
     "babel-cli": "^6.24.1",

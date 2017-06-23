@@ -1,4 +1,4 @@
-
+if (process.env.CORK) { process.stderr.cork(); }
 
 // need to wrap code that might result in an Error in try/catch
 // 
